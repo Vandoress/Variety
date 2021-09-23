@@ -1,0 +1,10 @@
+.footer {
+  height: 240px;
+  background-color: #e74c3c;
+}
+.copy-footer {
+  font-family: "Rokkitt";
+  font-size: 24.3px;
+  letter-spacing: -0.016em;
+  color: #ffffff;
+}

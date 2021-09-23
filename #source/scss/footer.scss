@@ -1,0 +1,50 @@
+.footer {
+	height: 240px;
+	background-color: $cl;
+	&__media {
+		margin: 0 96px;
+		display: flex;
+		justify-content:space-between;
+		@media (max-width: 520px){
+			margin: 0;
+		}
+		& i{
+			font-size: 38px;
+			color: $cl;
+		}
+	}
+	&__link{
+		position: relative;
+		top: -25px;
+		display: inline-flex;
+		width: 88px;
+		height: 88px;
+		align-items:center;
+		justify-content:center;
+		background-color: #f6f6f6;
+		outline: 6px solid rgba(231,76,60,0.58);
+		&_twitter{
+			& i{font-size: 48px;}
+		}
+	}
+	&__copy {
+		margin: 54px 0 0 0;
+	}
+}
+.copy-footer {
+	display: flex;
+	justify-content: space-between;
+	&_author {
+		display: block;
+		font-family: 'Rokkitt';
+		font-size: 24.3px;
+		letter-spacing: -0.016em;
+		color: #ffffff;
+	}
+	&__text {
+		font-family: 'Rokkitt';
+		font-size: 24.3px;
+		letter-spacing: -0.016em;
+		color: #ffffff;
+	}
+}
